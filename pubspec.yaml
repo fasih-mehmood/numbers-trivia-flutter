@@ -1,0 +1,41 @@
+name: number_trivia
+description: "Number trivia Clean Architecture TDD."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Service locator
+  get_it: ^7.6.7
+  # Bloc for state management
+  flutter_bloc: ^8.1.4
+  # Value equality
+  equatable: ^2.0.5
+  # Functional programming thingies
+  dartz: ^0.10.1
+  # Remote API
+  internet_connection_checker: ^1.0.0+1
+  http: ^1.2.0
+  # Local cache
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
